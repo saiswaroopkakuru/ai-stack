@@ -1,0 +1,14 @@
+{
+  "name": "ai-stack",
+  "version": "1.0.0",
+  "description": "One health check and repair command for OmniRoute, Ultron and ClearBrief in Claude Code on this machine.",
+  "type": "module",
+  "private": true,
+  "bin": { "ai-stack": "ai-stack.mjs" },
+  "scripts": {
+    "doctor": "node ai-stack.mjs doctor",
+    "fix": "node ai-stack.mjs fix",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}
